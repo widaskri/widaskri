@@ -19,8 +19,8 @@ typedef struct
 
 
 
-void initback(background *b)
-void afficheback(background b,SDL_Surface*screen)
+void initback(background *b);
+void afficheback(background b,SDL_Surface*screen);
 void animerBackground(background *e);
 int collisioPP(personne p,SDL_Surface *masque);
 void scrolling (background *b,int direction , int pasAvancement);
